@@ -35,6 +35,7 @@
   --white: hsl(0, 0%, 100%);
   --black: hsl(0, 0%, 0%);
   --onyx: hsl(0, 0%, 24%);
+  --blue: hsl(200,60%,90%);
 
   /**
    * typography
@@ -415,6 +416,15 @@ body {
   font-size: var(--fs-2);
   font-weight: var(--fw-700);
 }
+.blue{
+  color: hsl(202, 64%, 44%);
+}
+.blue2{
+  color: hsl(202, 82%, 22%);
+}
+.orange{
+  color:hsl(32, 100%, 50%);
+}
 
 .hero-text { margin-block: 20px 15px; }
 
@@ -711,9 +721,53 @@ body {
 .blog-card .card-text { margin-block: 15px; }
 
 
+.mapa{
+  margin-top: 30px;
+
+}
+
+.contenedor {
+  display: flex;
+}
+.titulo{
+  display: center;
+  text-align: center;
+}
+
+.subtitulo {
+  color: var(--green-blue-crayola);
+  text-transform: uppercase;
+  font-size: var(--fs-3);
+  font-family: var(--ff-oswald);
+  font-weight: var(--fw-600);
+  letter-spacing: 3px;
+  margin-block-end: 10px;
+  text-align: center;
+}
 
 
+.contenedor-lista {
+  display: flex;
+  justify-content: center; /* Centra los elementos horizontalmente */
+  align-items: center; /* Centra los elementos verticalmente */
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 
+.facha{
+  display: flex;
+  justify-content: center; /* Centra los elementos horizontalmente */
+  align-items: center; /
+  
+}
+
+.grido-list {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
 /*-----------------------------------*\
   #NEWSLETTER
 \*-----------------------------------*/
@@ -748,10 +802,6 @@ body {
   font-weight: var(--fw-700);
   padding: 8px 20px;
 }
-
-
-
-
 
 /*-----------------------------------*\
   #FOOTER
